@@ -1,0 +1,38 @@
+
+body {
+  font-family: Arial, sans-serif;
+  
+}
+
+.question {
+  font-size: 23px;
+  margin-bottom: 20px;
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.feedback {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.feedback.correct {
+  color: green;
+}
+
+.feedback.incorrect {
+  color: red;
+}
+
+.btn-custom {
+  background-color: lightpink;
+  color: white;
+  font-weight: bold;
+  border-radius: 0.5rem;
+}
+
+.btn-custom:hover {
+  background-color: #2980b9;
+}
